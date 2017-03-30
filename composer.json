@@ -1,0 +1,35 @@
+{
+    "name": "ipaya/yii2-fullavatareditor",
+    "description": "The FullAvatarEditor extension for Yii2.",
+    "homepage": "https://github.com/iPaya/yii2-fullavatareditor",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "fullavatareditor"
+    ],
+    "authors": [
+        {
+            "name": "Di Zhang",
+            "email": "zhangdi_me@163.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/tagmanager": "~3.0.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">4.8.20 <6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "iPaya\\fullAvatarEditor\\": "src"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
